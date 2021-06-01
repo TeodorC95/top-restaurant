@@ -1,0 +1,24 @@
+{
+  "name": "top-restaurant",
+  "version": "1.0.0",
+  "description": "restaurant project from the odin project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeodorC95/top-restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeodorC95/top-restaurant/issues"
+  },
+  "homepage": "https://github.com/TeodorC95/top-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
