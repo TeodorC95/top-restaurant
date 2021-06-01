@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  font-family: "Sigmar One", cursive;
+}
+h1 {
+  color: #231e23;
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+p {
+  color: #bf1363;
+}
+nav {
+  background-color: rgba(57, 166, 163, 0.5);
+}
+nav li {
+  display: inline-block;
+}
+nav li.active {
+  border-bottom: 2px solid #231e23;
+}
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #bf1363;
+}
+nav a:hover {
+  color: #231e23;
+}
+.content {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/restaurant.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  width: 33%;
+  margin: 0 auto;
+  background-color: rgba(35, 30, 35, 0.7);
+  margin-top: 2rem;
+  color: #deeeea;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.menu ul {
+  list-style: none;
+}
+.menu li {
+  padding: 1.5rem;
+}
